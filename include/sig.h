@@ -6,17 +6,17 @@
 /*   By: skatsuya < skatsuya@student.42tokyo.jp>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/05 03:13:27 by sakurako          #+#    #+#             */
-/*   Updated: 2026/01/13 20:01:25 by skatsuya         ###   ########.fr       */
+/*   Updated: 2026/01/13 20:26:23 by skatsuya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SIG_H
 # define SIG_H
 
+# include <signal.h>
 # include "minishell.h"
 # include <readline/history.h>
 # include <readline/readline.h>
-# include <signal.h>
 # include <sys/wait.h>
 
 extern volatile sig_atomic_t	g_sig;
